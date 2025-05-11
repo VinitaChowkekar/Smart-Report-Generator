@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Report</title>
+    <style>
+        body {
+            font-family: 'Arial', 'Segoe UI', 'Noto Color Emoji', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #2c3e50;
+            color: #ecf0f1;
+        }
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            color: #fff;
+            background: #1abc9c;
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-size: 28px;
+            color: #ecf0f1;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .section {
+            background: #34495e;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .keyword-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 15px;
+        }
+        .keyword-list li {
+            background: #16a085;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+        .keyword-list li:hover {
+            background: #1abc9c;
+            cursor: pointer;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .highlight {
+            background: #e74c3c;
+            padding: 10px;
+            color: #fff;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .section-header {
+            background-color: #34495e;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📊 Auto-Generated Report</h1>
+
+        <div class="section">
+            <h2>🔍 Summary</h2>
+            <p>{{ summary }}</p>
+        </div>
+
+        <div class="section">
+            <h2>📌 Keywords</h2>
+            <ul class="keyword-list">
+                {% for word, freq in keywords %}
+                    <li>{{ word }} ({{ freq }})</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🎨 Wordcloud</h2>
+            <img src="../{{ wordcloud_img }}" alt="Wordcloud">
+        </div>
+
+        <div class="section">
+            <h2>📈 Keyword Frequency</h2>
+            <img src="../{{ keyword_plot }}" alt="Keyword Frequency Plot">
+        </div>
+
+        <div class="section">
+            <h2>💬 Sentiment Analysis</h2>
+            <img src="../{{ sentiment_plot }}" alt="Sentiment Analysis Plot">
+        </div>
+
+        <div class="section">
+            <h2 class="section-header">💡 Key Insights</h2>
+            <p class="highlight">- 70% of customers are satisfied with the product quality.</p>
+            <p class="highlight">- The most frequent keyword is 'innovation', appearing in 40% of discussions.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

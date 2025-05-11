@@ -1,0 +1,66 @@
+Customer Satisfaction Survey Analysis
+--------------------------------------------------
+
+Survey Overview:
+The following analysis is based on the customer satisfaction survey conducted in Q1 2025. The survey gathered feedback from 5,000 customers regarding their experiences with our products and services. The data collected has been analyzed to assess customer satisfaction levels, identify areas of improvement, and suggest actionable steps to enhance customer experiences.
+
+Date of Survey: January 2025
+Survey Duration: January 1 - January 31, 2025
+Total Responses: 5,000
+
+Customer Satisfaction Ratings:
+- Very Satisfied: 1,500 responses (30%)
+- Satisfied: 2,200 responses (44%)
+- Neutral: 800 responses (16%)
+- Dissatisfied: 400 responses (8%)
+- Very Dissatisfied: 100 responses (2%)
+
+Key Insights:
+1. Overall, 74% of customers are either satisfied or very satisfied with our products and services.
+2. A significant number of customers (16%) remained neutral, indicating potential for improvement in engagement or product features.
+3. The primary dissatisfaction (38% of negative responses) stemmed from late delivery issues.
+4. A secondary dissatisfaction (25% of negative responses) was related to product quality concerns.
+
+Survey Results Breakdown:
+- **Product Quality**:
+   - Very Satisfied: 30%
+   - Satisfied: 50%
+   - Neutral: 15%
+   - Dissatisfied: 3%
+   - Very Dissatisfied: 2%
+
+- **Customer Service**:
+   - Very Satisfied: 40%
+   - Satisfied: 45%
+   - Neutral: 10%
+   - Dissatisfied: 3%
+   - Very Dissatisfied: 2%
+
+- **Delivery Time**:
+   - Very Satisfied: 20%
+   - Satisfied: 35%
+   - Neutral: 25%
+   - Dissatisfied: 15%
+   - Very Dissatisfied: 5%
+
+Visualizations:
+1. Customer Satisfaction Pie Chart:
+   Path: C:/Users/admin/Documents/Reports/satisfaction_pie_chart.png
+2. Product Quality vs. Delivery Time Plot:
+   Path: C:/Users/admin/Documents/Reports/quality_delivery_plot.png
+3. Customer Service Rating Bar Graph:
+   Path: C:/Users/admin/Documents/Reports/service_rating_bar.png
+
+Key Areas for Improvement:
+- **Delivery Time**: A large portion of dissatisfied customers mentioned late deliveries as their primary concern. Future strategies should focus on improving delivery logistics and reducing delays.
+- **Product Quality**: Although most customers were satisfied with product quality, there's still room for improvement to ensure fewer complaints.
+
+Recommendations:
+1. Implement better tracking systems to improve delivery time and provide real-time updates to customers.
+2. Introduce a quality assurance program for all products to ensure consistent standards.
+3. Engage neutral customers to better understand their concerns and convert them into satisfied customers through personalized follow-ups and offers.
+
+Conclusion:
+The results indicate that while the majority of customers are satisfied, there are key areas (like delivery time and product quality) that need attention. By addressing these issues, customer satisfaction can be significantly improved, leading to stronger customer loyalty and increased business performance.
+
+End of Report.

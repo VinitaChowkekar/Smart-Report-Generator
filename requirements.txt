@@ -1,0 +1,9 @@
+
+streamlit
+textblob
+wordcloud
+matplotlib
+seaborn
+scikit-learn
+jinja2
+pdfkit
